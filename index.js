@@ -5,7 +5,7 @@
    
    var userChoice = prompt("Please choose rock, paper, or scissors?");
    if (! userChoice) {
-       document.write("<p>Player 1, unknown choice, please refresh screen and choose again</p>");
+       document.write("<p>Player 1, invalid choice try again</p>");
    } else {
        document.write("<p>Player 1:" + " " + userChoice + "</p>");
    }
